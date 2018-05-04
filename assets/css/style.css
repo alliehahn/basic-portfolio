@@ -8,7 +8,10 @@ body {
     width: 539px;
     padding: 20px;
     margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 90px;
     background-color: white;
+    clear: both;
   }
 
 header {
@@ -17,14 +20,17 @@ header {
     margin-bottom: 0px;
     color: whitesmoke;
     background: rgb(90, 87, 87);
-    position: relative;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
   }
 
 #name {
     position: absolute;
     bottom: 0;
     width: 175px;
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     background: rgb(218, 202, 202);
     color:rgb(90, 87, 87);
@@ -59,12 +65,15 @@ a {
 }
 
 footer {
+    clear: both;
     padding: 30px;
     margin-bottom: 0px;
+    margin-top: 20px;
     color: whitesmoke;
     background: #5a5757;
-    position: absolute;
-    bottom:0;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
     width: 100%;
 }
 img {
@@ -95,3 +104,9 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: lightcoral;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
